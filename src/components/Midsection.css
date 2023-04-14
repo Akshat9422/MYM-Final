@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+.mid-body {
+  font-family: "Sulphur Point", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 40px 60px;
+}
+.mid-body h1 {
+  font-weight: 700;
+}
+.mid-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mid-content-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.mid-content-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mid-content-numbers h2 {
+  font-family: "Rubik", sans-serif;
+}
+.mid-content-percent {
+  width: 59px;
+  height: 28px;
+  background-color: #ddf6de;
+  color: #608662;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border-radius: 10px;
+}
+.mid-content-percent-bar {
+  margin-top: 3px;
+}
+.mid-border {
+  border-bottom: 2px solid #ececec;
+}
+.mid-chart {
+  height: 340px;
+}
+.mid-chart-content {
+  display: flex;
+  gap: 14px;
+}
+.mid-chart-content1 {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+.mid-chart-dot {
+  font-size: 10px;
+}
+.mid-para {
+  color: #94979a;
+}
